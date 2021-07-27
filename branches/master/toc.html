@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-    <title>XXXEXAMPLE.FHIR.UV.MYIG\Table of Contents - FHIR v4.0.1</title>
+    <title>OPENHIE.FHIR.UV.DDCC\Table of Contents - FHIR v4.0.1</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -66,7 +66,7 @@
 
 
         <div id="ig-status">
-          <p><span style="font-size:12pt;font-weight:bold">xxxYour User Friendly Name for MyIG Here</span><br/>0.1.0-test - CI Build</p>
+          <p><span style="font-size:12pt;font-weight:bold">OpenHIE DDCC</span><br/>0.1.0-test - CI Build</p>
         </div>
       </div>   <!-- /container -->
     </div>    <!-- /segment-header -->
@@ -88,10 +88,10 @@
             <div class="nav-collapse collapse navbar-inverse-collapse">
               <ul class="nav navbar-nav">
 	<li>
-		<a href="index.html">IG Home</a>
-	</li>
-	<li>
-		<a href="toc.html">Table of Contents</a>
+	  <a href="index.html">Narrative</a>
+	  <ul class="dropdown-menu">
+	    <li><a name="b18c7ab9-95a8-4040-a72d-925b3c478ed7">​</a><a href="references.html">References</a></li>
+	  </ul>
 	</li>
   <!-- <li class="dropdown">
 		<a data-toggle="dropdown" href="#" class="dropdown-toggle">Background<b class="caret"></b>
@@ -103,22 +103,49 @@
 		</a>
 
 	</li> -->
-	<li class="dropdown">
-		<a data-toggle="dropdown" href="#" class="dropdown-toggle">Specifications<b class="caret"></b>
+	<li class="dropdown"><a name="e564a60f-af48-4f13-85b5-3b85ac53fb14">​</a>
+		<a data-toggle="dropdown" href="requirements.html" class="dropdown-toggle">Business Requirements<b class="caret"></b>
 		</a>
 		<ul class="dropdown-menu">
-			<li>
-				<a href="artifacts.html">Artifact Index</a>
-			</li>
+		  <li><a name="63c4ba70-17bd-4f52-a097-a6485d1d26c5">​</a><a href="concepts.html">Key Concepts</a></li>
+		  <li><a name="340737c7-2970-48a3-a1e7-c223f973975b">​</a><a href="functional.html">Functional Requirements</a></li>
+		  <li><a name="bf1948d7-e0f8-401d-a88e-e5caa1f3c1f4">​</a><a href="personas.html">Personas</a></li>
+		  <li><a name="58ddd391-4f27-4214-aaa9-07a3927919d2">​</a><a href="workflows.html">Workflows</a></li>      
+		  <li><a name="7c2a6006-9681-4d6e-8295-1100b01c4bfe">​</a><a href="usecases.html">Use Cases</a></li>
+		  <li><a name="f148268f-5423-461c-a324-825af9edd400">​</a><a href="dictionary.html">Data Dictionary</a></li>
+
 		</ul>
 	</li>
-	<li class="dropdown">
-		<a data-toggle="dropdown" href="#" class="dropdown-toggle">Implementation<b class="caret"></b></a>
+
+	<li class="dropdown"><a name="0a3627f1-741b-4a26-95b5-351758730dd8">​</a>
+		<a data-toggle="dropdown" href="data_exchange.html" class="dropdown-toggle">Data Models and Exchange<b class="caret"></b>
+		</a>
 		<ul class="dropdown-menu">
-			<li><a href="downloads.html">Downloads</a></li>
+		  <li><a name="a8da152d-825a-4ac4-baa3-9627b40f576d">​</a><a href="dependencies.html">Dependencies</a></li>
+		  <li><a name="69824a35-5f9f-4fc5-9261-e1bc8e2d909d">​</a><a href="actors.html">Actors</a></li>
+		  <li><a name="202400c5-3d45-45b9-9f46-ed703166472c">​</a><a href="transactions.html">Transactions</a></li>
+		  <li><a name="e3caa4c9-58f1-4669-aebf-f4973ce6984a">​</a><a href="expected_actions.html">Expected Actions</a></li>
+		  <li><a name="665483bd-da18-4d71-867f-0dec62bce952">​</a><a href="content_profiles.html">Content Profiles</a></li>
+		</ul>
+	</li>
+	<li class="dropdown"><a name="688dfd9a-2e33-451c-8f4e-bd4c797cc7ab">​</a>
+		<a data-toggle="dropdown" href="deployment.html" class="dropdown-toggle"> Deployment<b class="caret"></b></a>
+		<ul class="dropdown-menu">
+		  <li><a name="8e4d22d5-6595-45a0-acda-dd7a769988ea">​</a><a href="reference_implementation.html">Reference Implementation</a></li>
+		  <li><a name="7f98ec08-0c4c-4bb8-9bc3-f8679956fd61">​</a><a href="security_privacy.html">Security and Privacy Considerations</a></li>
+		  <li><a name="ecf474bf-544f-4047-9dec-1003821be4f1">​</a><a href="testing.html">Testing</a></li>
+		  <li><a href="downloads.html">Downloads</a></li>
+		</ul>
+	</li>
+
+	<li class="dropdown"><a name="c438d139-2870-4d36-998e-136f585d9bd3">​</a>
+		<a data-toggle="dropdown" href="deployment.html" class="dropdown-toggle"> Indices<b class="caret"></b></a>
+		<ul class="dropdown-menu">
+		  <li><a href="artifacts.html">Artifact Index</a></li>
 		</ul>
 	</li>
 </ul>      
+
             </div>    <!-- /.nav-collapse -->
           </div>    <!-- /.container -->
         </nav>    <!-- /.navbar -->
@@ -150,10 +177,10 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-    <!-- ReleaseHeader --><p id="publish-box">xxxYour User Friendly Name for MyIG Here - Local Development build (v0.1.0-test). See the <a href="xxxhttp://somewhere.org/fhir/uv/myig/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+    <!-- ReleaseHeader --><p id="publish-box">OpenHIE DDCC - Local Development build (v0.1.0-test). See the <a href="http://openhie.org/fhir/hiv-casereporting/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
   <h2>Table of Contents</h2>
   
-    <!-- ?xml version="1.0" encoding="UTF-8"? --><div style="col-12"><table border="0" cellpadding="0" cellspacing="0" style="border:0px;font-size:11px;font-family:verdana;vertical-align:top;"><tbody><tr style="border:0px;padding:0px;vertical-align:top;background-color:white;"><td style="vertical-align:top;text-align:left;background-color:white;padding:0px 4px 0px 4px;white-space:nowrap;background-image:url(tbl_bck0.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color:inherit" class="hierarchy"/><img src="icon_page.gif" alt="." style="background-color:white;background-color:inherit" class="hierarchy"/><a href="toc.html" title="Table of Contents">0 Table of Contents</a></td></tr><tr style="border:0px;padding:0px;vertical-align:top;background-color:white;"><td style="vertical-align:top;text-align:left;background-color:white;padding:0px 4px 0px 4px;white-space:nowrap;background-image:url(tbl_bck0.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color:inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color:inherit" class="hierarchy"/><img src="icon_page.gif" alt="." style="background-color:white;background-color:inherit" class="hierarchy"/><a href="index.html" title="MyIG Home Page">1 MyIG Home Page</a></td></tr><tr style="border:0px;padding:0px;vertical-align:top;background-color:white;"><td style="vertical-align:top;text-align:left;background-color:white;padding:0px 4px 0px 4px;white-space:nowrap;background-image:url(tbl_bck0.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color:inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color:inherit" class="hierarchy"/><img src="icon_page.gif" alt="." style="background-color:white;background-color:inherit" class="hierarchy"/><a href="downloads.html" title="Useful Downloads">2 Useful Downloads</a></td></tr><tr style="border:0px;padding:0px;vertical-align:top;background-color:white;"><td style="vertical-align:top;text-align:left;background-color:white;padding:0px 4px 0px 4px;white-space:nowrap;background-image:url(tbl_bck0.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color:inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color:inherit" class="hierarchy"/><img src="icon_page.gif" alt="." style="background-color:white;background-color:inherit" class="hierarchy"/><a href="changes.html" title="IG Change History">3 IG Change History</a></td></tr><tr style="border:0px;padding:0px;vertical-align:top;background-color:white;"><td style="vertical-align:top;text-align:left;background-color:white;padding:0px 4px 0px 4px;white-space:nowrap;background-image:url(tbl_bck0.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color:inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color:inherit" class="hierarchy"/><img src="icon_page.gif" alt="." style="background-color:white;background-color:inherit" class="hierarchy"/><a href="artifacts.html" title="Artifacts Summary">4 Artifacts Summary</a></td></tr></tbody></table></div>
+    <!-- ?xml version="1.0" encoding="UTF-8"? --><div style="col-12"><table border="0" cellpadding="0" cellspacing="0" style="border:0px;font-size:11px;font-family:verdana;vertical-align:top;"><tbody><tr style="border:0px;padding:0px;vertical-align:top;background-color:white;"><td style="vertical-align:top;text-align:left;background-color:white;padding:0px 4px 0px 4px;white-space:nowrap;background-image:url(tbl_bck0.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color:inherit" class="hierarchy"/><img src="icon_page.gif" alt="." style="background-color:white;background-color:inherit" class="hierarchy"/><a href="toc.html" title="Table of Contents">0 Table of Contents</a></td></tr><tr style="border:0px;padding:0px;vertical-align:top;background-color:white;"><td style="vertical-align:top;text-align:left;background-color:white;padding:0px 4px 0px 4px;white-space:nowrap;background-image:url(tbl_bck0.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color:inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color:inherit" class="hierarchy"/><img src="icon_page.gif" alt="." style="background-color:white;background-color:inherit" class="hierarchy"/><a href="index.html" title="OpenHIE DDCC">1 OpenHIE DDCC</a></td></tr><tr style="border:0px;padding:0px;vertical-align:top;background-color:white;"><td style="vertical-align:top;text-align:left;background-color:white;padding:0px 4px 0px 4px;white-space:nowrap;background-image:url(tbl_bck0.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color:inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color:inherit" class="hierarchy"/><img src="icon_page.gif" alt="." style="background-color:white;background-color:inherit" class="hierarchy"/><a href="downloads.html" title="Useful Downloads">2 Useful Downloads</a></td></tr><tr style="border:0px;padding:0px;vertical-align:top;background-color:white;"><td style="vertical-align:top;text-align:left;background-color:white;padding:0px 4px 0px 4px;white-space:nowrap;background-image:url(tbl_bck0.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color:inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color:inherit" class="hierarchy"/><img src="icon_page.gif" alt="." style="background-color:white;background-color:inherit" class="hierarchy"/><a href="changes.html" title="IG Change History">3 IG Change History</a></td></tr><tr style="border:0px;padding:0px;vertical-align:top;background-color:white;"><td style="vertical-align:top;text-align:left;background-color:white;padding:0px 4px 0px 4px;white-space:nowrap;background-image:url(tbl_bck0.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color:inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color:inherit" class="hierarchy"/><img src="icon_page.gif" alt="." style="background-color:white;background-color:inherit" class="hierarchy"/><a href="artifacts.html" title="Artifacts Summary">4 Artifacts Summary</a></td></tr></tbody></table></div>
 </div>
         </div>    <!-- /inner-wrapper -->
       </div>    <!-- /row -->
@@ -176,14 +203,14 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
            
       <div class="inner-wrapper">
-        <p><a name="8fa92d5c-a566-433d-9aac-49d24a4ea088">​</a>
-          IG &copy; 2019+ <a style="color: #81BEF7" href="xxxhttp://hl7.org/Special/committees/[something]">xxxYour Work Group</a>.  Package xxxexample.fhir.uv.myig#0.1.0-test based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Jul 27, 2021 13:41+0000">2021-07-27</span>
+        <p>
+          IG &copy; 2020+ <a style="color: #81BEF7" href="http://ohie.net">OpenHIE</a>.  Package openhie.fhir.uv.ddcc#0.1.0-test based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Jul 27, 2021 15:05+0000">2021-07-27</span>
           <br/>
           <span style="color: #FFFF77">
                       Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
                  <a style="color: #81BEF7" href="qa.html">QA Report</a> |
                  
-                 <a style="color: #81BEF7" href="xxxhttp://somewhere.org/fhir/uv/myig/history.html" target="_blank">Version History</a> |
+                 <a style="color: #81BEF7" href="http://openhie.org/fhir/hiv-casereporting/history.html" target="_blank">Version History</a> |
                  <a rel="license" style="color: #81BEF7" href="http://hl7.org/fhir/R4/license.html"><img src="assets/images/cc-by.png" alt="CC-BY" style="border-style: none;" height="17"/></a> |
                    <!-- <a style="color: #81BEF7" href="todo.html">Search</a> | --> 
 
