@@ -4,6 +4,7 @@ temp
 template
 output
 fsh-generated
+input-cache
 
 # Don't commit this because it's so large #
 ###########################################
@@ -21,3 +22,15 @@ Thumbs.db
 # backup files #
 ################
 *.bak
+
+
+# emacs #
+#########
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
