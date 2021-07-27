@@ -3,7 +3,7 @@
 
 err = 4, warn = 1, info = 0
 IG Publisher Version: 1.1.77
-Generated Tue Jul 27 15:21:58 UTC 2021. FHIR version 4.0.1 for openhie.fhir.uv.ddcc#0.1.0-test (canonical = http://openhie.org/fhir/hiv-casereporting)
+Generated Tue Jul 27 16:32:35 UTC 2021. FHIR version 4.0.1 for openhie.fhir.uv.ddcc#0.1.0-test (canonical = http://openhie.org/fhir/hiv-casereporting)
 
  Build Errors : 0 / 0 / 0
  /github/workspace/input/ddcc : 4 / 1 / 1
