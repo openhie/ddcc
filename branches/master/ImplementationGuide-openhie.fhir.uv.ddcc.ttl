@@ -18,7 +18,7 @@
   fhir:ImplementationGuide.title [ fhir:value "OpenHIE DDCC"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
   fhir:ImplementationGuide.experimental [ fhir:value "false"^^xsd:boolean];
-  fhir:ImplementationGuide.date [ fhir:value "2021-07-27T15:05:51+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-07-27T15:21:51+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "OpenHIE"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -316,18 +316,107 @@
        fhir:ImplementationGuide.definition.page.page [
          fhir:index 0;
          fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "index.html" ];
-         fhir:ImplementationGuide.definition.page.title [ fhir:value "OpenHIE DDCC" ];
-         fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ]
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Narrative" ];
+         fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ];
+         fhir:ImplementationGuide.definition.page.page [
+           fhir:index 0;
+           fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "references.html" ];
+           fhir:ImplementationGuide.definition.page.title [ fhir:value "References" ];
+           fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ]
+         ]
        ], [
          fhir:index 1;
-         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "downloads.html" ];
-         fhir:ImplementationGuide.definition.page.title [ fhir:value "Useful Downloads" ];
-         fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ]
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "requirements.html" ];
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Business Requirements" ];
+         fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ];
+         fhir:ImplementationGuide.definition.page.page [
+           fhir:index 0;
+           fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "concepts.html" ];
+           fhir:ImplementationGuide.definition.page.title [ fhir:value "Concepts" ];
+           fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ]
+         ], [
+           fhir:index 1;
+           fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "functional.html" ];
+           fhir:ImplementationGuide.definition.page.title [ fhir:value "Functional Requirements" ];
+           fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ]
+         ], [
+           fhir:index 2;
+           fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "personas.html" ];
+           fhir:ImplementationGuide.definition.page.title [ fhir:value "Personas" ];
+           fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ]
+         ], [
+           fhir:index 3;
+           fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "workflows.html" ];
+           fhir:ImplementationGuide.definition.page.title [ fhir:value "Workflows" ];
+           fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ]
+         ], [
+           fhir:index 4;
+           fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "usecases.html" ];
+           fhir:ImplementationGuide.definition.page.title [ fhir:value "Use Cases" ];
+           fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ]
+         ], [
+           fhir:index 5;
+           fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "dictionary.html" ];
+           fhir:ImplementationGuide.definition.page.title [ fhir:value "Data Dictionary" ];
+           fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ]
+         ]
        ], [
          fhir:index 2;
-         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "changes.html" ];
-         fhir:ImplementationGuide.definition.page.title [ fhir:value "IG Change History" ];
-         fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ]
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "data_exchange.html" ];
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Data Models and Exchange" ];
+         fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ];
+         fhir:ImplementationGuide.definition.page.page [
+           fhir:index 0;
+           fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "dependencies.html" ];
+           fhir:ImplementationGuide.definition.page.title [ fhir:value "Dependencies" ];
+           fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ]
+         ], [
+           fhir:index 1;
+           fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "actors.html" ];
+           fhir:ImplementationGuide.definition.page.title [ fhir:value "Actors" ];
+           fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ]
+         ], [
+           fhir:index 2;
+           fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "transactions.html" ];
+           fhir:ImplementationGuide.definition.page.title [ fhir:value "Transactions" ];
+           fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ]
+         ], [
+           fhir:index 3;
+           fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "expected_actions.html" ];
+           fhir:ImplementationGuide.definition.page.title [ fhir:value "Expected Actions" ];
+           fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ]
+         ], [
+           fhir:index 4;
+           fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "content_profiles.html" ];
+           fhir:ImplementationGuide.definition.page.title [ fhir:value "Content Profiles" ];
+           fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ]
+         ]
+       ], [
+         fhir:index 3;
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "deployment.html" ];
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Deployment Guidance" ];
+         fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ];
+         fhir:ImplementationGuide.definition.page.page [
+           fhir:index 0;
+           fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "reference_implementation.html" ];
+           fhir:ImplementationGuide.definition.page.title [ fhir:value "Reference Implementation" ];
+           fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ]
+         ], [
+           fhir:index 1;
+           fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "security_privacy.html" ];
+           fhir:ImplementationGuide.definition.page.title [ fhir:value "Security and Privacy Considerations" ];
+           fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ]
+         ], [
+           fhir:index 2;
+           fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "testing.html" ];
+           fhir:ImplementationGuide.definition.page.title [ fhir:value "Testing" ];
+           fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ]
+         ], [
+           fhir:index 3;
+           fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "downloads.html" ];
+           fhir:ImplementationGuide.definition.page.title [ fhir:value "Useful Downloads" ];
+           fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ]
+         ]
        ]
      ];
      fhir:ImplementationGuide.definition.parameter [
