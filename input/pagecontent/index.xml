@@ -1,38 +1,64 @@
 <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../src-generated/schemas/fhir-single.xsd" lang="en">
   <a name="scope">  </a>
-	<p>
-    This is our FHIR Implementation Guide. It contains the specifications developed by our community. 
-   </p>
-	<blockquote class="stu-note">
-	<strong>This documentation and set of artefacts are still undergoing development.</strong>
-	This content is only for demonstrative purposes.
-	</blockquote>
-	<p> </p>
+
+  <div>
+    This is the OpenHIE Implementation Guide for WHO's <a href="https://worldhealthorganization.github.io/ddcc/index.html">Digital Documentation of Covid Certificates (DDCC) IG</a>    
+  </div>
+  
+  <blockquote class="stu-note">
+    <strong>This documentation and set of artefacts are still undergoing development.</strong>
+    This content is only for demonstrative purposes.
+  </blockquote>
+
   <h3>Content</h3> <a name="content"> </a>
-	<p/>
 
-<p>This publication contains the full set of specifications...</p>
-<p></p>
-<p>There is also an overview of the projects and motivation for the specifications.</p>
-<p></p>
 
-<a name="navigation"> </a>
-<p>The top menu allows quick navigation to the different sections, and a <a href="toc.html">Table of Contents</a> is provided with the entire content of this Implementation Guide. (Be aware that some pages have multiple tabs).</p>
-<p></p>
-	<a name="ip"> </a>
-	<h3>Intellectual Property Considerations</h3>
-	<p>
+  <div>
+    This publication contains the full set of specifications for an OpenHIE compliant implementation of WHO's <a href="https://worldhealthorganization.github.io/ddcc/index.html">Digital Documentation of Covid Certificates (DDCC) IG</a
+  </div>
+
+  <div>
+    The WHO DDCC Implementation Guide contains a standards-compliant specifications for the DDCC:VS technical specifications and guidance document. This Implementation Guide explicitly encodes computer-interoperable logic, including data models, terminologies, and logic expressions, in a computable language to support implementation of continuity of care and proof of vaccination use cases by Member States.
+  </div>
+  
+  <div>
+    The OpenHIE DDCC Implementation Guide builds off the WHO DDCC Implementation Guide while leveraging the <a href="https://ohie.org/wp-content/uploads/2020/12/OpenHIE-Specification-Release-3.0.pdf">OpenHIE Architecture Specification</a>.  Highlights of the differences between the Implementation Guides include:
+    <ul>
+      <li>The Certificate Repository actor is required in the OpenHIE DDCC IG</li>
+      <li>The Certificate Repository and Certificate Registry actors are grouped in the OpenHIE DDCC IG</li>
+      <li>The OpenHIE Share Health Record is used to fufill the Certificate Repository actor role in the OpenHIE DDCC IG</li>
+      <li>The <a href="https://worldhealthorganization.github.io/ddcc/actors.html#ddcc-generator">DDCC Generator Service</a> is a service within the Interoperability Layer within the OpenHIE architecture</li>
+    </ul>
+    With these requirements, OpenHIE DDCC implementors are able to utilize other components of the OpenHIE Architecture to provide auxilary services related to DDCC implementations which may include:
+    <ul>
+      <li>Use of a Terminology Service to handle mappings of termonologies from jurisidiction defined code systems to those requried by the WHO DDCC</li>
+      <li>Use of a Product Catalog to handle codings, market authorization and other metadata associated to the vaccines available with the implementation jurisidiction</li>
+      <li>Use of a Client Registry record linkage/deduplication services to better ensure continuity of care</li>
+      <li>Use of a Health Worker Registry to ensure that appropriately authorized and credentialed health workers are vaccinating clients</li>
+      <li>Use of a Facility Regsitry to ensure consistent codings of health facility and health devlivery organizations</li> 
+    </ul>
+  </div>
+    
+
+
+  
+  <a name="navigation"> </a>
+  <div>The top menu allows quick navigation to the different sections, and a <a href="toc.html">Table of Contents</a> is provided with the entire content of this Implementation Guide. (Be aware that some pages have multiple tabs).</div>
+  <div></div>
+  <a name="ip"> </a>
+  <h3>Intellectual Property Considerations</h3>
+  <div>
     While this implementation guide and the underlying FHIR are licensed as public domain, this guide includes examples making use of terminologies such 
     as LOINC, SNOMED CT and others which have more restrictive licensing requirements. Implementers should make themselves familiar with licensing and 
     any other constraints of terminologies, questionnaires, and other components used as part of their implementation process. In some cases, 
     licensing requirements may limit the systems that data captured using certain questionnaires may be shared with.
-  </p>
+  </div>
 
-	<a name="disclaimer"> </a>
-	<h3>Disclaimer</h3>
-	<p>
+  <a name="disclaimer"> </a>
+  <h3>Disclaimer</h3>
+  <div>
     The specification herewith documented is a demo working specification, and may not be used for any implementation purposes. 
     This draft is provided without warranty of completeness or consistency, and the official publication supersedes this draft.
     No liability can be inferred from the use or misuse of this specification, or its consequences.
-  </p>
+  </div>
 </div>
