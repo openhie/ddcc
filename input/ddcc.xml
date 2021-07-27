@@ -40,9 +40,119 @@
   <fhirVersion value="4.0.1"/>
   <definition>
     <!-- You don't need to define any groupings.  The IGPublisher will define them for you.  You only need to do so if your IG is 'special' and it's
-      inappropriate to use the defaults.  Feel free to provide feedback about the defaults... -->
-    <page>
-      <!-- The root will always be toc.html - the template will force it if you don't do it -->
+	 inappropriate to use the defaults.  Feel free to provide feedback about the defaults... -->
+
+
+	<definition>
+	  <page>
+	    <!-- The root will always be toc.html - the template will force it if you don't do it -->
+	    <nameUrl value="toc.html"/>
+	    <title value="Table of Contents"/>
+	    <generation value="html"/>
+	    <page>
+	      <nameUrl value="index.html"/>
+	      <title value="Narrative"/>
+	      <generation value="html"/>
+	      <page>
+		<nameUrl value="references.html"/>
+		<title value="References"/>
+		<generation value="html"/>
+	      </page>
+	    </page>
+	    <page>
+	      <nameUrl value="requirements.html"/>
+	      <title value="Business Requirements"/>
+	      <generation value="html"/>
+	      <page>
+		<nameUrl value="concepts.html"/>
+		<title value="Concepts"/>
+		<generation value="html"/>
+	      </page>
+	      <page>
+		<nameUrl value="functional.html"/>
+		<title value="Functional Requirements"/>
+		<generation value="html"/>
+	      </page>
+	      <page>
+		<nameUrl value="personas.html"/>
+		<title value="Personas"/>
+		<generation value="html"/>
+	      </page>
+	      <page>
+		<nameUrl value="workflows.html"/>
+		<title value="Workflows"/>
+		<generation value="html"/>
+	      </page>
+	      <page>
+		<nameUrl value="usecases.html"/>
+		<title value="Use Cases"/>
+		<generation value="html"/>
+	      </page>
+	      <page>
+		<nameUrl value="dictionary.html"/>
+		<title value="Data Dictionary"/>
+		<generation value="html"/>
+	      </page>
+	    </page>
+	    <page>
+	      <nameUrl value="data_exchange.html"/>
+	      <title value="Data Models and Exchange"/>
+	      <generation value="html"/>
+	      <page>
+		<nameUrl value="dependencies.html"/>
+		<title value="Dependencies"/>
+		<generation value="html"/>
+	      </page>
+	      <page>
+		<nameUrl value="actors.html"/>
+		<title value="Actors"/>
+		<generation value="html"/>
+	      </page>
+	      <page>
+		<nameUrl value="transactions.html"/>
+		<title value="Transactions"/>
+		<generation value="html"/>
+	      </page>
+	      <page>
+		<nameUrl value="expected_actions.html"/>
+		<title value="Expected Actions"/>
+		<generation value="html"/>
+	      </page>
+	      <page>
+		<nameUrl value="content_profiles.html"/>
+		<title value="Content Profiles"/>
+		<generation value="html"/>
+	      </page>
+	    </page>
+	    <page>
+	      <nameUrl value="deployment.html"/>
+	      <title value="Deployment Guidance"/>
+	      <generation value="html"/>
+	      <page>
+		<nameUrl value="reference_implementation.html"/>
+		<title value="Reference Implementation"/>
+		<generation value="html"/>
+	      </page>
+	      <page>
+		<nameUrl value="security_privacy.html"/>
+		<title value="Security and Privacy Considerations"/>
+		<generation value="html"/>
+	      </page>
+
+	      <page>
+		<nameUrl value="testing.html"/>
+		<title value="Testing"/>
+		<generation value="html"/>
+	      </page>
+	      <page>
+		<nameUrl value="downloads.html"/>
+		<title value="Useful Downloads"/>
+		<generation value="html"/>
+	      </page>
+	    </page>
+	  </page>
+
+          <!-- The root will always be toc.html - the template will force it if you don't do it -->
       <nameUrl value="toc.html"/>
       <title value="Table of Contents"/>
       <generation value="html"/>
@@ -51,6 +161,7 @@
         <title value="OpenHIE DDCC"/>
         <generation value="html"/>
       </page>
+      
       <page>
         <nameUrl value="downloads.html"/>
         <title value="Useful Downloads"/>
