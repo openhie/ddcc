@@ -1,0 +1,16 @@
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/R5/fhir-single.xsd">
+
+  The following comprise reference implementations of this Implementation Guide:
+  <ul>
+    <li><a href="https://openhie.github.io/instant/">Instant OpenHIE</a> is used as the basis for the deployment of the OpenHIE stack</li>
+    <li>The <a href="https://github.com/openhie/ddcc-transactions-mediator">DDCC transaction mediator</a> is the Certificate Generator service</li>
+  </ul>
+  In addition, the following point of service tools can initiate the Submit Health Event transaction:
+  <ul>
+    <li><a href="https://github.com/opensrp/fhircore">OpenSRP - FHIR Core</a></li>
+  </ul>
+  
+  
+  
+  
+</div>
