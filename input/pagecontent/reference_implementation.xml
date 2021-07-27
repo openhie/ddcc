@@ -4,6 +4,7 @@
   <ul>
     <li><a href="https://openhie.github.io/instant/">Instant OpenHIE</a> is used as the basis for the deployment of the OpenHIE stack</li>
     <li>The <a href="https://github.com/openhie/ddcc-transactions-mediator">DDCC transaction mediator</a> is the Certificate Generator service</li>
+    <li>The <a href="https://github.com/intrahealth/bulk-fsh">Bulk FSH generator</a> has a worked example of using Python with Excel for creating FHIR resources for DDCC testing.</li>
   </ul>
   In addition, the following point of service tools can initiate the Submit Health Event transaction:
   <ul>
