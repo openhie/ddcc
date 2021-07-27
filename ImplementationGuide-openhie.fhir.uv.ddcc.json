@@ -11,7 +11,7 @@
   "title": "OpenHIE DDCC",
   "status": "draft",
   "experimental": false,
-  "date": "2021-07-27T15:05:51+00:00",
+  "date": "2021-07-27T15:21:51+00:00",
   "publisher": "OpenHIE",
   "contact": [
     {
@@ -335,18 +335,111 @@
       "page": [
         {
           "nameUrl": "index.html",
-          "title": "OpenHIE DDCC",
-          "generation": "html"
+          "title": "Narrative",
+          "generation": "html",
+          "page": [
+            {
+              "nameUrl": "references.html",
+              "title": "References",
+              "generation": "html"
+            }
+          ]
         },
         {
-          "nameUrl": "downloads.html",
-          "title": "Useful Downloads",
-          "generation": "html"
+          "nameUrl": "requirements.html",
+          "title": "Business Requirements",
+          "generation": "html",
+          "page": [
+            {
+              "nameUrl": "concepts.html",
+              "title": "Concepts",
+              "generation": "html"
+            },
+            {
+              "nameUrl": "functional.html",
+              "title": "Functional Requirements",
+              "generation": "html"
+            },
+            {
+              "nameUrl": "personas.html",
+              "title": "Personas",
+              "generation": "html"
+            },
+            {
+              "nameUrl": "workflows.html",
+              "title": "Workflows",
+              "generation": "html"
+            },
+            {
+              "nameUrl": "usecases.html",
+              "title": "Use Cases",
+              "generation": "html"
+            },
+            {
+              "nameUrl": "dictionary.html",
+              "title": "Data Dictionary",
+              "generation": "html"
+            }
+          ]
         },
         {
-          "nameUrl": "changes.html",
-          "title": "IG Change History",
-          "generation": "html"
+          "nameUrl": "data_exchange.html",
+          "title": "Data Models and Exchange",
+          "generation": "html",
+          "page": [
+            {
+              "nameUrl": "dependencies.html",
+              "title": "Dependencies",
+              "generation": "html"
+            },
+            {
+              "nameUrl": "actors.html",
+              "title": "Actors",
+              "generation": "html"
+            },
+            {
+              "nameUrl": "transactions.html",
+              "title": "Transactions",
+              "generation": "html"
+            },
+            {
+              "nameUrl": "expected_actions.html",
+              "title": "Expected Actions",
+              "generation": "html"
+            },
+            {
+              "nameUrl": "content_profiles.html",
+              "title": "Content Profiles",
+              "generation": "html"
+            }
+          ]
+        },
+        {
+          "nameUrl": "deployment.html",
+          "title": "Deployment Guidance",
+          "generation": "html",
+          "page": [
+            {
+              "nameUrl": "reference_implementation.html",
+              "title": "Reference Implementation",
+              "generation": "html"
+            },
+            {
+              "nameUrl": "security_privacy.html",
+              "title": "Security and Privacy Considerations",
+              "generation": "html"
+            },
+            {
+              "nameUrl": "testing.html",
+              "title": "Testing",
+              "generation": "html"
+            },
+            {
+              "nameUrl": "downloads.html",
+              "title": "Useful Downloads",
+              "generation": "html"
+            }
+          ]
         }
       ]
     },
