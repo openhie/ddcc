@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-    <title>XXXEXAMPLE.FHIR.UV.MYIG\IG Change History - FHIR v4.0.1</title>
+    <title>OPENHIE.FHIR.UV.DDCC\IG Change History - FHIR v4.0.1</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -66,7 +66,7 @@
 
 
         <div id="ig-status">
-          <p><span style="font-size:12pt;font-weight:bold">xxxYour User Friendly Name for MyIG Here</span><br/>0.1.0-test - CI Build</p>
+          <p><span style="font-size:12pt;font-weight:bold">OpenHIE DDCC</span><br/>0.1.0-test - CI Build</p>
         </div>
       </div>   <!-- /container -->
     </div>    <!-- /segment-header -->
@@ -88,10 +88,10 @@
             <div class="nav-collapse collapse navbar-inverse-collapse">
               <ul class="nav navbar-nav">
 	<li>
-		<a href="index.html">IG Home</a>
-	</li>
-	<li>
-		<a href="toc.html">Table of Contents</a>
+	  <a href="index.html">Narrative</a>
+	  <ul class="dropdown-menu">
+	    <li><a name="6e24ed97-98ac-4aad-b4e8-87891385886a">​</a><a href="references.html">References</a></li>
+	  </ul>
 	</li>
   <!-- <li class="dropdown">
 		<a data-toggle="dropdown" href="#" class="dropdown-toggle">Background<b class="caret"></b>
@@ -103,22 +103,49 @@
 		</a>
 
 	</li> -->
-	<li class="dropdown">
-		<a data-toggle="dropdown" href="#" class="dropdown-toggle">Specifications<b class="caret"></b>
+	<li class="dropdown"><a name="06e65bee-15b1-498a-80ee-6a846120ee05">​</a>
+		<a data-toggle="dropdown" href="requirements.html" class="dropdown-toggle">Business Requirements<b class="caret"></b>
 		</a>
 		<ul class="dropdown-menu">
-			<li>
-				<a href="artifacts.html">Artifact Index</a>
-			</li>
+		  <li><a name="5ccc313b-664f-4d26-ab9b-d74d9ed8b02d">​</a><a href="concepts.html">Key Concepts</a></li>
+		  <li><a name="f5b47fe6-1585-487a-ba9b-6fc783d75c95">​</a><a href="functional.html">Functional Requirements</a></li>
+		  <li><a name="a8a59c74-b889-453d-98cc-da312d6f598f">​</a><a href="personas.html">Personas</a></li>
+		  <li><a name="88e0dcc2-5a38-4f14-9a07-5dd13ce60b0e">​</a><a href="workflows.html">Workflows</a></li>      
+		  <li><a name="2e6d21f8-10ef-4875-aa42-fbc23d551ab2">​</a><a href="usecases.html">Use Cases</a></li>
+		  <li><a name="85d882ef-914b-423d-bfd4-9b44f3f29d1c">​</a><a href="dictionary.html">Data Dictionary</a></li>
+
 		</ul>
 	</li>
-	<li class="dropdown">
-		<a data-toggle="dropdown" href="#" class="dropdown-toggle">Implementation<b class="caret"></b></a>
+
+	<li class="dropdown"><a name="7cae315b-4894-4c9e-a20e-018e5afc3253">​</a>
+		<a data-toggle="dropdown" href="data_exchange.html" class="dropdown-toggle">Data Models and Exchange<b class="caret"></b>
+		</a>
 		<ul class="dropdown-menu">
-			<li><a href="downloads.html">Downloads</a></li>
+		  <li><a name="70399f8f-e98e-4d3d-87a4-3818fd31efa4">​</a><a href="dependencies.html">Dependencies</a></li>
+		  <li><a name="cc1b08eb-c8f7-48ae-92aa-2922c04cff61">​</a><a href="actors.html">Actors</a></li>
+		  <li><a name="fc1c0cc8-0e63-4c1d-a2ab-b042e4dfefb2">​</a><a href="transactions.html">Transactions</a></li>
+		  <li><a name="ebbddf92-4fb7-42ff-a934-22a22e3fa659">​</a><a href="expected_actions.html">Expected Actions</a></li>
+		  <li><a name="9984cc0a-51f0-4da3-8f19-bb101d47b060">​</a><a href="content_profiles.html">Content Profiles</a></li>
+		</ul>
+	</li>
+	<li class="dropdown"><a name="6f5fc813-228f-4bf7-9229-18e381b4ecbe">​</a>
+		<a data-toggle="dropdown" href="deployment.html" class="dropdown-toggle"> Deployment<b class="caret"></b></a>
+		<ul class="dropdown-menu">
+		  <li><a name="6eb0f765-8239-45b9-9159-f3508407b1be">​</a><a href="reference_implementation.html">Reference Implementation</a></li>
+		  <li><a name="6b531116-393e-483c-8e78-7702c57e3e17">​</a><a href="security_privacy.html">Security and Privacy Considerations</a></li>
+		  <li><a name="78056b49-771e-479f-8f8a-1316186e560a">​</a><a href="testing.html">Testing</a></li>
+		  <li><a href="downloads.html">Downloads</a></li>
+		</ul>
+	</li>
+
+	<li class="dropdown"><a name="edc4471d-ad34-4a47-83f1-ab1e3080e698">​</a>
+		<a data-toggle="dropdown" href="deployment.html" class="dropdown-toggle"> Indices<b class="caret"></b></a>
+		<ul class="dropdown-menu">
+		  <li><a href="artifacts.html">Artifact Index</a></li>
 		</ul>
 	</li>
 </ul>      
+
             </div>    <!-- /.nav-collapse -->
           </div>    <!-- /.container -->
         </nav>    <!-- /.navbar -->
@@ -150,16 +177,16 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-    <!-- ReleaseHeader --><p id="publish-box">xxxYour User Friendly Name for MyIG Here - Local Development build (v0.1.0-test). See the <a href="xxxhttp://somewhere.org/fhir/uv/myig/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+    <!-- ReleaseHeader --><p id="publish-box">OpenHIE DDCC - Local Development build (v0.1.0-test). See the <a href="http://openhie.org/fhir/hiv-casereporting/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
   <h2>IG Change History</h2>
   
   <div>
-	<p>
-    This provides a list of changes to the MyIG specification since its initial release
+  <p>
+    This provides a list of changes to the iHRIS Relationship  specification since its initial release
   </p>
   <a name="0.1.0">  </a>
-	<p>
-		<b>2099-01-01 v0.1.0 - My IG R1 (STU ballot 1) Ballot Candidate</b> based on FHIR R4
+  <p>
+    <b>2020-04-15 v0.0.1 -  Initial </b> iHRIS Relationship
   </p>
   <ul>
     <li>Initial version</li>
@@ -187,14 +214,14 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
            
       <div class="inner-wrapper">
-        <p><a name="93256f78-dfc8-4ebe-a3af-c925315b59d8">​</a>
-          IG &copy; 2019+ <a style="color: #81BEF7" href="xxxhttp://hl7.org/Special/committees/[something]">xxxYour Work Group</a>.  Package xxxexample.fhir.uv.myig#0.1.0-test based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Jul 27, 2021 13:41+0000">2021-07-27</span>
+        <p>
+          IG &copy; 2020+ <a style="color: #81BEF7" href="http://ohie.net">OpenHIE</a>.  Package openhie.fhir.uv.ddcc#0.1.0-test based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Jul 27, 2021 15:05+0000">2021-07-27</span>
           <br/>
           <span style="color: #FFFF77">
                       Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
                  <a style="color: #81BEF7" href="qa.html">QA Report</a> |
                  
-                 <a style="color: #81BEF7" href="xxxhttp://somewhere.org/fhir/uv/myig/history.html" target="_blank">Version History</a> |
+                 <a style="color: #81BEF7" href="http://openhie.org/fhir/hiv-casereporting/history.html" target="_blank">Version History</a> |
                  <a rel="license" style="color: #81BEF7" href="http://hl7.org/fhir/R4/license.html"><img src="assets/images/cc-by.png" alt="CC-BY" style="border-style: none;" height="17"/></a> |
                    <!-- <a style="color: #81BEF7" href="todo.html">Search</a> | --> 
 

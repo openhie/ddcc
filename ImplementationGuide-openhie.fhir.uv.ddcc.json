@@ -1,29 +1,29 @@
 {
   "resourceType": "ImplementationGuide",
-  "id": "xxxexample.fhir.uv.myig",
+  "id": "openhie.fhir.uv.ddcc",
   "text": {
     "status": "extensions",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>xxxYourComputableMyIGNameHere</h2><p>The official URL for this implementation guide is: </p><pre>xxxhttp://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig</pre><div><p>xxxA brief description of what this IG is about</p>\n</div></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ddcc</h2><p>The official URL for this implementation guide is: </p><pre>http://openhie.org/fhir/hiv-casereporting/ImplementationGuide/ddcc</pre><div><p>OpenHIE Implementation Guide for WHO's DDCC</p>\n</div></div>"
   },
-  "url": "xxxhttp://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig",
+  "url": "http://openhie.org/fhir/hiv-casereporting/ImplementationGuide/ddcc",
   "version": "0.1.0-test",
-  "name": "xxxYourComputableMyIGNameHere",
-  "title": "xxxYour User Friendly Name for MyIG Here",
+  "name": "ddcc",
+  "title": "OpenHIE DDCC",
   "status": "draft",
   "experimental": false,
-  "date": "2021-07-27T13:41:22+00:00",
-  "publisher": "xxxYour Work Group",
+  "date": "2021-07-27T15:05:51+00:00",
+  "publisher": "OpenHIE",
   "contact": [
     {
       "telecom": [
         {
           "system": "url",
-          "value": "xxxhttp://hl7.org/Special/committees/[something]"
+          "value": "http://ohie.net"
         }
       ]
     }
   ],
-  "description": "xxxA brief description of what this IG is about ",
+  "description": "OpenHIE Implementation Guide for WHO's DDCC",
   "jurisdiction": [
     {
       "coding": [
@@ -34,7 +34,7 @@
       ]
     }
   ],
-  "packageId": "xxxexample.fhir.uv.myig",
+  "packageId": "openhie.fhir.uv.ddcc",
   "license": "CC0-1.0",
   "fhirVersion": [
     "4.0.1"
@@ -49,7 +49,7 @@
           },
           {
             "url": "value",
-            "valueString": "2019+"
+            "valueString": "2020+"
           }
         ],
         "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
@@ -192,7 +192,7 @@
           },
           {
             "url": "value",
-            "valueString": "xxxhttp://somewhere.org/fhir/uv/myig/history.html"
+            "valueString": "http://openhie.org/fhir/hiv-casereporting/history.html"
           }
         ],
         "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
@@ -335,7 +335,7 @@
       "page": [
         {
           "nameUrl": "index.html",
-          "title": "MyIG Home Page",
+          "title": "OpenHIE DDCC",
           "generation": "html"
         },
         {
